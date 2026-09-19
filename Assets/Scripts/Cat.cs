@@ -6,4 +6,9 @@ public class Cat : Animal
     {
         Eat();
     }
+
+    public override void Eat()
+    {
+        Debug.Log("cat eating meow meow");
+    }
 }

@@ -7,4 +7,10 @@ public class Dog : Animal
         Eat();
         
     }
+
+    public override void Eat()
+    {
+        Debug.Log("Dog is eating");
+    }
+
 }
