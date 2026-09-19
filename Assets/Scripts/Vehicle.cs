@@ -5,8 +5,11 @@ public class Vehicle : MonoBehaviour
     private float speed = 10f;
 
     
+
+
     public float Speed
     {
+        // encapsulation
         get { return speed; }
         set 
         { 

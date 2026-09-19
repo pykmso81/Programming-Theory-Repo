@@ -7,6 +7,8 @@ public class Dog : Animal
         Eat();   
     }
 
+
+    //polymorphism
     public override void Eat()
     {
         Debug.Log("Dog is eating");

@@ -1,8 +1,9 @@
 using UnityEngine;
 
-public class Toyota : Vehicle
+public class Toyota : Vehicle // inheretance
 
 {
+    
     void Start()
     {
 
