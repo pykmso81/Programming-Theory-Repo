@@ -4,8 +4,7 @@ public class Dog : Animal
 {
     void Start()
     {
-        Eat();
-        
+        Eat();   
     }
 
     public override void Eat()
